@@ -4,20 +4,36 @@
 Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. 
 
 ## Questions
-1. Player Count
-2. Total Number of Players
-3. Purchasing Analysis (Total)- Number of Unique Items, Average Purchase Price, Total Number of Purchases, Total Revenue
-4. Gender Demographics - Percentage and Count of Male Players, Percentage and Count of Female Players, Percentage and Count of Other / Non-Disclosed
-5. Purchasing Analysis by Gender - Purchase Count, Average Purchase Price, Total Purchase Value, Average Purchase Total per Person by Gender
-6. Age Demographics by bins of 4 years (i.e. <10, 10-14, 15-19, etc.) - Purchase Count, Average Purchase Price, Total Purchase Value, Average Purchase Total per Person by Age Group
-7. Top 5 Spenders - SN, Purchase Count, Average Purchase Price, Total Purchase Value
-8. Five Most Popular Items - Item ID, Item Name, Purchase Count, Item Price, Total Purchase Value
-9. Five Most Profitable Items - Item ID, Item Name, Purchase Count, Item Price, Total Purchase Value
+1. Player Count - What is the total player count? How many are male vs. female?
+2. Age Demograhics - What are the peak age demographics? 
+3. Purchasing Analysis by Gender - Do females or males spend more on average? 
+4. Popular Items - Which items are sold the most?
+5. Profitable Items - Which items account for highest total revenue?
 
-## Analysis Results
-1. Of the 1163 active players, the vast majority are male (84%). There also exists, a smaller, but notable proportion of female players (14%).
+## Datasets
+https://github.com/dmilestone/pandas-challenge/blob/master/purchase_data.csv
 
-2. Our peak age demographic falls between 20-24 (44.8%) with secondary groups falling between 15-19 (18.60%) and 25-29 (13.4%).
+## Tasks
+1. Calculate total player count.
+2. Calculate percentage and count of males versus females. 
+3. Calculate the average price and total purchase count of each gender group.
+4. Bin age groups and calculate the number of players and percentage of players in each group.
+5. Calculate the purchase count, average purchase price, and total purchase value for each age group.
+6. Calculate the purchase count and total purchase value for the five most popular items. 
+7. Calculate the purchase count and total purchase value for the five most profitable items. 
+
+
+## Observations, Trends, Conclusions
+
+1. Player Count - Of the 1163 active players, the vast majority are male (84%). There also exists, a smaller, but notable proportion of female players (14%).
+
+2. Age Demograhics -  Peak age demographics fall between 20-24 (44.8%) with secondary groups falling between 15-19 (18.60%) and 25-29 (13.4%).
+
+3. Purchasing Analysis by Gender - Females spend more on average at 4.47 per person, while males sepnd an average of 4.07 per person. 
+
+4. Popular Items - "Oathbreaker, Last Hope of the Breaking Storm" was the most popular item sold at 12 purchases. Three items were tied for second most popular at 9 purchases - "Fiery Glass Crusader", "Extraction, Quickblade Of Trembling Hands", and "Nirvana." 
+
+5. Profitable Items - "Oathbreaker, Last Hope of the Breaking Storm" accounted for the most total revenue at 50.76 in total sales. 
 
 ## Disclaimer
 This project was published for educational purposes only. 
