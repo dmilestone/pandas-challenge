@@ -1,6 +1,5 @@
 # Pandas Challenge - Heroes of Pymoli
-
-## You've been assigned the task of analyzing  data for the fantasy game Heroes of Pymoli.
+You've been assigned the task of analyzing  data for the fantasy game Heroes of Pymoli.
 Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. 
 
 ## Questions
